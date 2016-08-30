@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 0px;
+}
+
+.half, .third {
+	display: inline-block;
+	height: 100%;
+	border: 1px black solid;
+}
+
+.half {
+	width: 50%;
+}
+
+.third {
+	width: 33.33%;
+}
+
+.top-half, .bot-half {
+	width: 100%;
+}
+
+.top-half {
+	height: 200px;
+}
+
+.bot-half {
+	height: 300px;
+}
+
+.container-box {
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	width: 800px;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.grey {
+	background-color: grey;
+}
+
+.black {
+	background-color: black;
+}
+
+.orange {
+	background-color: orange;
+}
